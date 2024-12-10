@@ -6,7 +6,7 @@
 buildGoModule rec {
   name = "json2steamshortcut";
   src = ./src;
-  vendorSha256 = null;
+  vendorHash = null;
 
   meta = {
     description = "A tool to create a steam shortcut file from a json";
